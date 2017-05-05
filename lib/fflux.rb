@@ -5,7 +5,7 @@ module Fflux
 
   class << self
 
-    @@port = 4444
+    @@port = 8092
     @@host = '127.0.0.1'
 
     def write(measurement, values = {}, tags = {})

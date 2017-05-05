@@ -64,7 +64,7 @@ RSpec.describe Fflux do
   private
 
   def expect_udp_content(content)
-    expect(test_socket).to receive(:send).with(content, 0, '127.0.0.1', 4444)
+    expect(test_socket).to receive(:send).with(content, 0, '127.0.0.1', 8092)
   end
 
 end
