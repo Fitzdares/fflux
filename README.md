@@ -36,7 +36,7 @@ Fflux.write("cpu", { value: 100 })
 
 Fflux.write("memory", { free: 100, allocated: 800 })
 
-# Measurements with values
+# Measurements with tags
 
 Fflux.write("event", { message: "Something happened" }, { environment: "test" })
 ```
